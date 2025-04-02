@@ -28,11 +28,7 @@ export default tseslint.config(
   {
     rules: {
       "prettier/prettier": ["error", { endOfLine: "auto" }],
-      "@typescript-eslint/no-explicit-any": "warn",
-      "@typescript-eslint/no-unsafe-return": "warn",
-      "@typescript-eslint/no-unused-vars": "off",
       "@typescript-eslint/no-floating-promises": "off",
-      "@typescript-eslint/no-unsafe-argument": "off",
     },
   },
 );
